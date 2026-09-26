@@ -1,0 +1,646 @@
+<!doctype html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Danh sách Facebook Groups</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        background: #f5f7fa;
+      }
+      h1 {
+        text-align: center;
+        padding: 20px 10px;
+      }
+      .container {
+        max-width: 1200px;
+        margin: auto;
+        padding: 10px;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+        gap: 12px;
+      }
+      .card {
+        display: block;
+        text-decoration: none;
+        color: inherit;
+        background: white;
+        border-radius: 10px;
+        padding: 12px;
+        padding-left: 40px;
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+        word-break: break-all;
+      }
+      .card a {
+        text-decoration: none;
+        color: #1877f2;
+        font-size: 14px;
+      }
+      .card a:hover {
+        text-decoration: underline;
+      }
+      #floating-menu {
+        position: fixed;
+        top: 15px;
+        left: 15px;
+        z-index: 9999;
+        font-family: Arial, sans-serif;
+      }
+
+      #menu-button {
+        background: #1877f2;
+        color: #fff;
+        padding: 10px 14px;
+        border-radius: 6px;
+        cursor: pointer;
+        font-weight: bold;
+        user-select: none;
+      }
+
+      #menu-links {
+        display: none;
+        margin-top: 8px;
+        background: #fff;
+        border: 1px solid #ddd;
+        border-radius: 6px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+        overflow: hidden;
+      }
+
+      #menu-links a {
+        display: block;
+        padding: 8px 12px;
+        text-decoration: none;
+        color: #333;
+        border-bottom: 1px solid #eee;
+      }
+
+      #menu-links a:last-child {
+        border-bottom: none;
+      }
+
+      #menu-links a:hover {
+        background: #f0f0f0;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="floating-menu">
+      <div id="menu-button">☰ Menu</div>
+      <div id="menu-links">
+        <a
+          href="https://www.facebook.com/groups/735590394019281"
+          target="_blank"
+        >
+          Group 1
+        </a>
+        <a
+          href="https://www.facebook.com/groups/791612411604604/?sorting_setting=CHRONOLOGICAL"
+          target="_blank"
+        >
+          Group 2
+        </a>
+        <a
+          href="https://www.facebook.com/profile.php?id=61592231767593"
+          target="_blank"
+        >
+          Liduška
+        </a>
+      </div>
+    </div>
+    <h1>📋 Danh sách Facebook Groups</h1>
+    <div class="container">
+      <div class="card">
+        <a
+          class="card"
+          href="https://www.facebook.com/groups/cotsonggenz?sorting_setting=CHRONOLOGICAL"
+          target="_blank"
+          >cotsonggenz</a
+        >
+      </div>
+      <div class="card">
+        <a
+          class="card"
+          href="https://www.facebook.com/groups/1002405062275634"
+          target="_blank"
+          >1002405062275634</a
+        >
+      </div>
+      <div class="card">
+        <a
+          class="card"
+          href="https://www.facebook.com/groups/162291904341394/?sorting_setting=CHRONOLOGICAL"
+          target="_blank"
+          >162291904341394</a
+        >
+      </div>
+      <div class="card">
+        <a
+          class="card"
+          href="https://www.facebook.com/groups/1992548960760601?sorting_setting=CHRONOLOGICAL"
+          target="_blank"
+          >1992548960760601</a
+        >
+      </div>
+      <div class="card">
+        <a
+          class="card"
+          href="https://www.facebook.com/groups/cafeduongpho.vn"
+          target="_blank"
+          >cafeduongpho.vn</a
+        >
+      </div>
+      <div class="card">
+        <a
+          class="card"
+          href="https://www.facebook.com/groups/1025915464999352"
+          target="_blank"
+          >1025915464999352</a
+        >
+      </div>
+      <div class="card">
+        <a
+          class="card"
+          href="https://www.facebook.com/groups/572348384121798/?sorting_setting=CHRONOLOGICAL"
+          target="_blank"
+          >572348384121798</a
+        >
+      </div>
+      <div class="card">
+        <a
+          class="card"
+          href="https://www.facebook.com/groups/346075153963293/?sorting_setting=CHRONOLOGICAL"
+          target="_blank"
+          >346075153963293</a
+        >
+      </div>
+      <div class="card">
+        <a
+          class="card"
+          href="https://www.facebook.com/groups/1035305801507450"
+          target="_blank"
+          >1035305801507450</a
+        >
+      </div>
+      <div class="card">
+        <a
+          class="card"
+          href="https://www.facebook.com/groups/congdonghieuluat"
+          target="_blank"
+          >congdonghieuluat</a
+        >
+      </div>
+      <div class="card">
+        <a
+          class="card"
+          href="https://www.facebook.com/groups/tinder.strangers.things/?sorting_setting=CHRONOLOGICAL"
+          target="_blank"
+          >tinder.strangers.things</a
+        >
+      </div>
+      <div class="card">
+        <a
+          class="card"
+          href="https://www.facebook.com/groups/nguoidongnai2021"
+          target="_blank"
+          >nguoidongnai2021</a
+        >
+      </div>
+      <div class="card">
+        <a
+          class="card"
+          href="https://www.facebook.com/groups/flexdenhoithocuoicung?sorting_setting=CHRONOLOGICAL"
+          target="_blank"
+          >flexdenhoithocuoicung</a
+        >
+      </div>
+      <div class="card">
+        <a
+          class="card"
+          href="https://www.facebook.com/groups/nhomgianghotranhba/?sorting_setting=CHRONOLOGICAL"
+          target="_blank"
+          >nhomgianghotranhba</a
+        >
+      </div>
+      <div class="card">
+        <a
+          class="card"
+          href="https://www.facebook.com/groups/tainangiaothong247/?sorting_setting=CHRONOLOGICAL"
+          target="_blank"
+          >tainangiaothong247</a
+        >
+      </div>
+      <div class="card">
+        <a
+          class="card"
+          href="https://www.facebook.com/groups/giaothongvov/?sorting_setting=CHRONOLOGICAL"
+          target="_blank"
+          >giaothongvov</a
+        >
+      </div>
+      <div class="card">
+        <a
+          class="card"
+          href="https://www.facebook.com/groups/gtvm.2/?sorting_setting=CHRONOLOGICAL"
+          target="_blank"
+          >gtvm.2</a
+        >
+      </div>
+      <div class="card">
+        <a
+          class="card"
+          href="https://www.facebook.com/groups/GTVMGROUP/?sorting_setting=CHRONOLOGICAL"
+          target="_blank"
+          >GTVMGROUP</a
+        >
+      </div>
+      <div class="card">
+        <a
+          class="card"
+          href="https://www.facebook.com/groups/491466112096859/?sorting_setting=CHRONOLOGICAL"
+          target="_blank"
+          >491466112096859</a
+        >
+      </div>
+      <div class="card">
+        <a
+          class="card"
+          href="https://www.facebook.com/groups/hongbien47bymiscs/?sorting_setting=CHRONOLOGICAL"
+          target="_blank"
+          >hongbien47bymiscs</a
+        >
+      </div>
+      <div class="card">
+        <a
+          class="card"
+          href="https://www.facebook.com/groups/giaothongantoan/?sorting_setting=CHRONOLOGICAL"
+          target="_blank"
+          >giaothongantoan</a
+        >
+      </div>
+      <div class="card">
+        <a
+          class="card"
+          href="https://www.facebook.com/groups/231618002322443/?sorting_setting=CHRONOLOGICAL"
+          target="_blank"
+          >231618002322443</a
+        >
+      </div>
+      <div class="card">
+        <a
+          class="card"
+          href="https://www.facebook.com/groups/1618339848938145/?sorting_setting=CHRONOLOGICAL"
+          target="_blank"
+          >1618339848938145</a
+        >
+      </div>
+      <div class="card">
+        <a
+          class="card"
+          href="https://www.facebook.com/groups/1446289966027316"
+          target="_blank"
+          >1446289966027316</a
+        >
+      </div>
+      <div class="card">
+        <a
+          class="card"
+          href="https://www.facebook.com/groups/863918394383740/?sorting_setting=CHRONOLOGICAL"
+          target="_blank"
+          >863918394383740</a
+        >
+      </div>
+      <div class="card">
+        <a
+          class="card"
+          href="https://www.facebook.com/groups/HOILAIXEVIETNAM/?sorting_setting=CHRONOLOGICAL"
+          target="_blank"
+          >HOILAIXEVIETNAM</a
+        >
+      </div>
+      <div class="card">
+        <a
+          class="card"
+          href="https://www.facebook.com/groups/163655995863492/?sorting_setting=CHRONOLOGICAL"
+          target="_blank"
+          >163655995863492</a
+        >
+      </div>
+      <div class="card">
+        <a
+          class="card"
+          href="https://www.facebook.com/groups/884430280549932/?sorting_setting=CHRONOLOGICAL"
+          target="_blank"
+          >884430280549932</a
+        >
+      </div>
+      <div class="card">
+        <a
+          class="card"
+          href="https://www.facebook.com/groups/damkham2/?sorting_setting=CHRONOLOGICAL"
+          target="_blank"
+          >damkham2</a
+        >
+      </div>
+      <div class="card">
+        <a
+          class="card"
+          href="https://www.facebook.com/groups/791612411604604/?sorting_setting=CHRONOLOGICAL"
+          target="_blank"
+          >791612411604604</a
+        >
+      </div>
+      <div class="card">
+        <a
+          class="card"
+          href="https://www.facebook.com/groups/1576069742542316/?sorting_setting=CHRONOLOGICAL"
+          target="_blank"
+          >1576069742542316</a
+        >
+      </div>
+      <div class="card">
+        <a
+          class="card"
+          href="https://www.facebook.com/groups/kosocho/?sorting_setting=CHRONOLOGICAL"
+          target="_blank"
+          >kosocho</a
+        >
+      </div>
+      <div class="card">
+        <a
+          class="card"
+          href="https://www.facebook.com/groups/kovandegi/?sorting_setting=CHRONOLOGICAL"
+          target="_blank"
+          >kovandegi</a
+        >
+      </div>
+      <div class="card">
+        <a
+          class="card"
+          href="https://www.facebook.com/groups/daychui/?sorting_setting=CHRONOLOGICAL"
+          target="_blank"
+          >daychui</a
+        >
+      </div>
+      <div class="card">
+        <a
+          class="card"
+          href="https://www.facebook.com/groups/940451435430665"
+          target="_blank"
+          >940451435430665</a
+        >
+      </div>
+      <div class="card">
+        <a
+          class="card"
+          href="https://www.facebook.com/groups/626573128746384"
+          target="_blank"
+          >626573128746384</a
+        >
+      </div>
+      <div class="card">
+        <a
+          class="card"
+          href="https://www.facebook.com/groups/dangyeumoingay/?sorting_setting=CHRONOLOGICAL"
+          target="_blank"
+          >dangyeumoingay</a
+        >
+      </div>
+      <div class="card">
+        <a
+          class="card"
+          href="https://www.facebook.com/groups/1517732655234313/?sorting_setting=CHRONOLOGICAL"
+          target="_blank"
+          >1517732655234313</a
+        >
+      </div>
+      <div class="card">
+        <a
+          class="card"
+          href="https://www.facebook.com/groups/1326609117699652/?sorting_setting=CHRONOLOGICAL"
+          target="_blank"
+          >1326609117699652</a
+        >
+      </div>
+      <div class="card">
+        <a
+          class="card"
+          href="https://www.facebook.com/groups/3024998774451276?sorting_setting=CHRONOLOGICAL"
+          target="_blank"
+          >3024998774451276</a
+        >
+      </div>
+      <div class="card">
+        <a
+          class="card"
+          href="https://www.facebook.com/groups/offbiet/?sorting_setting=CHRONOLOGICAL"
+          target="_blank"
+          >offbiet</a
+        >
+      </div>
+      <div class="card">
+        <a
+          class="card"
+          href="https://www.facebook.com/groups/otofun2021/?sorting_setting=CHRONOLOGICAL"
+          target="_blank"
+          >otofun2021</a
+        >
+      </div>
+      <div class="card">
+        <a
+          class="card"
+          href="https://www.facebook.com/groups/quantrieudinh/?sorting_setting=CHRONOLOGICAL"
+          target="_blank"
+          >quantrieudinh</a
+        >
+      </div>
+      <div class="card">
+        <a
+          class="card"
+          href="https://www.facebook.com/groups/1196917883750004/?sorting_setting=CHRONOLOGICAL"
+          target="_blank"
+          >1196917883750004</a
+        >
+      </div>
+      <div class="card">
+        <a
+          class="card"
+          href="https://www.facebook.com/groups/reviewpleikugialai/?sorting_setting=CHRONOLOGICAL"
+          target="_blank"
+          >reviewpleikugialai</a
+        >
+      </div>
+      <div class="card">
+        <a
+          class="card"
+          href="https://www.facebook.com/groups/380912805062832"
+          target="_blank"
+          >380912805062832</a
+        >
+      </div>
+      <div class="card">
+        <a
+          class="card"
+          href="https://www.facebook.com/groups/282876654874054?sorting_setting=CHRONOLOGICAL"
+          target="_blank"
+          >282876654874054</a
+        >
+      </div>
+      <div class="card">
+        <a
+          class="card"
+          href="https://www.facebook.com/groups/723966541143502"
+          target="_blank"
+          >723966541143502</a
+        >
+      </div>
+      <div class="card">
+        <a
+          class="card"
+          href="https://www.facebook.com/groups/1180175199000163/?sorting_setting=CHRONOLOGICAL"
+          target="_blank"
+          >1180175199000163</a
+        >
+      </div>
+      <div class="card">
+        <a
+          class="card"
+          href="https://www.facebook.com/groups/505680573495227/?sorting_setting=CHRONOLOGICAL"
+          target="_blank"
+          >505680573495227</a
+        >
+      </div>
+      <div class="card">
+        <a
+          class="card"
+          href="https://www.facebook.com/groups/151787973464464/?sorting_setting=CHRONOLOGICAL"
+          target="_blank"
+          >151787973464464</a
+        >
+      </div>
+      <div class="card">
+        <a
+          class="card"
+          href="https://www.facebook.com/groups/tourtkplaza/"
+          target="_blank"
+          >tourtkplaza</a
+        >
+      </div>
+      <div class="card">
+        <a
+          class="card"
+          href="https://www.facebook.com/groups/dhbachkhoahn/?sorting_setting=CHRONOLOGICAL"
+          target="_blank"
+          >dhbachkhoahn</a
+        >
+      </div>
+      <div class="card">
+        <a
+          class="card"
+          href="https://www.facebook.com/groups/TruongNguoiTa?sorting_setting=CHRONOLOGICAL"
+          target="_blank"
+          >TruongNguoiTa</a
+        >
+      </div>
+      <div class="card">
+        <a
+          class="card"
+          href="https://www.facebook.com/groups/tttdnn0.2/?sorting_setting=CHRONOLOGICAL"
+          target="_blank"
+          >tttdnn0.2</a
+        >
+      </div>
+      <div class="card">
+        <a
+          class="card"
+          href="https://www.facebook.com/groups/1804070913902901/?sorting_setting=CHRONOLOGICAL"
+          target="_blank"
+          >1804070913902901</a
+        >
+      </div>
+      <div class="card">
+        <a
+          class="card"
+          href="https://www.facebook.com/groups/venkheo/?sorting_setting=CHRONOLOGICAL"
+          target="_blank"
+          >venkheo</a
+        >
+      </div>
+      <div class="card">
+        <a
+          class="card"
+          href="https://www.facebook.com/groups/venkheogroup/?sorting_setting=CHRONOLOGICAL"
+          target="_blank"
+          >venkheogroup</a
+        >
+      </div>
+      <div class="card">
+        <a
+          class="card"
+          href="https://www.facebook.com/groups/weibovietnamtruyendaiky/?sorting_setting=CHRONOLOGICAL"
+          target="_blank"
+          >weibovietnamtruyendaiky</a
+        >
+      </div>
+      <div class="card">
+        <a
+          class="card"
+          href="https://www.facebook.com/groups/nhungconnguoithattinh"
+          target="_blank"
+          >nhungconnguoithattinh</a
+        >
+      </div>
+      <div class="card">
+        <a
+          class="card"
+          href="https://www.facebook.com/groups/184659109462650"
+          target="_blank"
+          >184659109462650</a
+        >
+      </div>
+      <div class="card">
+        <a
+          class="card"
+          href="https://www.facebook.com/groups/suyngamcuocdoi/?sorting_setting=CHRONOLOGICAL"
+          target="_blank"
+          >suyngamcuocdoi</a
+        >
+      </div>
+      <div class="card">
+        <a
+          class="card"
+          href="https://www.facebook.com/groups/361726451351144/?sorting_setting=CHRONOLOGICAL"
+          target="_blank"
+          >361726451351144</a
+        >
+      </div>
+      <div class="card">
+        <a
+          class="card"
+          href="https://www.facebook.com/groups/depchanhsagroup/?sorting_setting=CHRONOLOGICAL"
+          target="_blank"
+          >depchanhsagroup</a
+        >
+      </div>
+      <div class="card">
+        <a
+          class="card"
+          href="https://www.facebook.com/groups/gdl.onvtb/?sorting_setting=CHRONOLOGICAL"
+          target="_blank"
+          >gdl.onvtb</a
+        >
+      </div>
+    </div>
+  </body>
+  <script>
+    document
+      .getElementById("menu-button")
+      .addEventListener("click", function () {
+        const links = document.getElementById("menu-links");
+        links.style.display =
+          links.style.display === "block" ? "none" : "block";
+      });
+  </script>
+</html>
